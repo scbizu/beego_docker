@@ -17,7 +17,7 @@ RUN export PATH=$PATH:$GOPATH/bin
 #install app
 RUN git clone https://github.com/scbizu/Zafu_jwcInterface.git
 
-WORKDIR "/Zafu_jwcInterface.git/jwc_api"
+#WORKDIR "/Zafu_jwcInterface.git/jwc_api"
 #
 
-RUN bee run
+#RUN bee run

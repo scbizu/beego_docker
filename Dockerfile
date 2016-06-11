@@ -12,7 +12,7 @@ RUN go get -u github.com/astaxie/beego
 RUN go get -u github.com/beego/bee
 
 #set bee env
-RUN export $GOPATH/bin
+RUN export PATH=$PATH:$GOPATH/bin
 
 #install app
 RUN git clone https://github.com/scbizu/Zafu_jwcInterface.git

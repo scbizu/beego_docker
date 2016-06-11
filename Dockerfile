@@ -8,5 +8,8 @@ RUN apt-get update
 # install beego
 RUN go get -u github.com/astaxie/beego
 
-# install app
-RUN go get -u github.com/scbizu/Zafu_jwcInterface
+# install bee
+RUN go get -u github.com/beego/bee
+
+#install app
+RUN go get github.com/scbizu/Zafu_jwcInterface/tree/master/jwc_api

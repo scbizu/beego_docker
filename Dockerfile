@@ -12,4 +12,4 @@ RUN go get -u github.com/astaxie/beego
 RUN go get -u github.com/beego/bee
 
 #install app
-RUN go get github.com/scbizu/Zafu_jwcInterface/tree/master/jwc_api
+RUN git clone https://github.com/scbizu/Zafu_jwcInterface.git
